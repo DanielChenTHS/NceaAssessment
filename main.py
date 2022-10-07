@@ -21,7 +21,7 @@ smallfont = pygame.font.SysFont("segoeui", 14)
 slategray = (112, 128, 144)
 lightgray = (165, 175, 185)
 blackish = (10, 10, 10)
-#background_image = 'background'
+background = Actor('background')
 
 player = Actor('player')
 player.x = 282
